@@ -109,7 +109,7 @@ public class DanhSachLoiMoiKetBanActivity extends AppCompatActivity {
                     public void onClick(int pos) {
                         AlertDialog.Builder dialog = new AlertDialog.Builder(DanhSachLoiMoiKetBanActivity.this);
                         dialog.setTitle("Thông báo");
-                        dialog.setMessage("Bạn có muốn lời mời này hay không?");
+                        dialog.setMessage("Bạn có muốn xóa không?");
 
                         dialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
